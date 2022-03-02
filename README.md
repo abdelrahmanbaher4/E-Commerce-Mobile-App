@@ -14,3 +14,22 @@ The sample project provides a shopping demo app built for android phones with An
 * Android Studio: 4.1
 * Android SDK: 19
 * Gradle: 6.3
+## App Screens 
+### Register Sceen 
+#### where in this Screen the App is validating the user's inputs through checking in the database for several things :- 
+* checking if the user is already registered 
+* email is in correct format using this Regex String 
+```java
+private static final String regex = "^[\\w-_\\.+]*[\\w-_\\.]\\@([\\w]+\\.)+[\\w]+[\\w]$";
+
+    private boolean validateEmail(String email) {
+        return email.matches(regex);
+    }
+
+    public void parseString(String email) throws InvalidEmailException {
+        if (!validateEmail(email))
+            throw new InvalidEmailException();
+
+        address = email;
+    }
+ ```
