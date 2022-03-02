@@ -18,6 +18,31 @@ The sample project provides a shopping demo app built for android phones with An
 ### Register Sceen 
 #### where in this Screen the App is validating the user's inputs through checking in the database for several things :- 
 * checking if the user is already registered 
+```java
+public boolean checkUsernameAvailability(String username) {
+            ecommerceDatabase = getReadableDatabase();
+            String Query = "Select * From Customer Where Username = ?";
+            Cursor cursor = ecommerceDatabase.rawQuery(Query, new String[] {username});
+            if(cursor.getCount() <= 0){
+                cursor.close();
+                return false;
+            }
+            cursor.close();
+            return true;
+    }
+    
+    public boolean checkEmailAvailability(String email) {
+        ecommerceDatabase = getReadableDatabase();
+        String Query = "Select * from Customer where Email = ?";
+        Cursor cursor = ecommerceDatabase.rawQuery(Query, new String[] {email});
+        if(cursor.getCount() <= 0){
+            cursor.close();
+            return false;
+        }
+        cursor.close();
+        return true;
+    }
+```
 * email is in correct format using this Regex String 
 ```java
 private static final String regex = "^[\\w-_\\.+]*[\\w-_\\.]\\@([\\w]+\\.)+[\\w]+[\\w]$";
@@ -33,3 +58,4 @@ private static final String regex = "^[\\w-_\\.+]*[\\w-_\\.]\\@([\\w]+\\.)+[\\w]
         address = email;
     }
  ```
+## if all the fields are correct then the user will be added succesfully  
