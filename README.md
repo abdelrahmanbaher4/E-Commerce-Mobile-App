@@ -15,7 +15,8 @@ The sample project provides a shopping demo app built for android phones with An
 * Android SDK: 19
 * Gradle: 6.3
 ## App Screens 
-### Register Sceen 
+### Register Sceen
+![Alt Text](https://giphy.com/gifs/w0K8TfeuuzOOzs5u10)
 #### where in this Screen the App is validating the user's inputs through checking in the database for several things :- 
 * checking if the user is already registered 
 ```java
@@ -59,3 +60,4 @@ private static final String regex = "^[\\w-_\\.+]*[\\w-_\\.]\\@([\\w]+\\.)+[\\w]
     }
  ```
 ## if all the fields are correct then the user will be added succesfully  
+
