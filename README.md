@@ -9,14 +9,14 @@ The sample project provides a shopping demo app built for android phones with An
 * Product search Screen
 * One-tap sign-in and sign-out
 ## App Generation
-* download the .rar file and open it in android Studio
+* download the .rar file and Extract it and then open it in android Studio
 ### Compilation environment
 * Android Studio: 4.1
 * Android SDK: 19
 * Gradle: 6.3
 ## App Screens 
 ### Register Sceen
-![Alt Text](https://media.giphy.com/media/w0K8TfeuuzOOzs5u10/giphy.gif)
+![Alt Text](https://media.giphy.com/media/SHEN9wj3Rnmri8mNB4/giphy.gif)
 #### where in this Screen the App is validating the user's inputs through checking in the database for several things :- 
 * checking if the user is already registered 
 ```java
