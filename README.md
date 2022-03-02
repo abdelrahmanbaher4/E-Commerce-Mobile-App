@@ -16,7 +16,7 @@ The sample project provides a shopping demo app built for android phones with An
 * Gradle: 6.3
 ## App Screens 
 ### Register Sceen
-![Alt Text](https://giphy.com/gifs/w0K8TfeuuzOOzs5u10)
+![Alt Text](https://media.giphy.com/media/w0K8TfeuuzOOzs5u10/giphy.gif)
 #### where in this Screen the App is validating the user's inputs through checking in the database for several things :- 
 * checking if the user is already registered 
 ```java
