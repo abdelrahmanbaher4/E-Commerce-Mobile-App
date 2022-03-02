@@ -60,4 +60,18 @@ private static final String regex = "^[\\w-_\\.+]*[\\w-_\\.]\\@([\\w]+\\.)+[\\w]
     }
  ```
 ## if all the fields are correct then the user will be added succesfully  
+## Login Screen
+#### where in this Screen the App is validating the user's inputs through checking in the database if the username already exists or not 
+![Alt Text](https://media.giphy.com/media/q8Lj6jc2QFc9eirurp/giphy.gif)
+## Main Screen 
+#### where in this Screen contains all the Games with the available quantities , and when the user press on it , if the it has quantities it is successfuly added to the user's cart  
+![Alt Text](https://media.giphy.com/media/xDuoxX5FN4pU116AlA/giphy.gif)
+## Shopping Cart Screen
+#### where in this Screen it contains all the Games the user has added to his/her cart with the number of quantities and he can increase or decrease the quantities 
+![Alt Text](https://media.giphy.com/media/0Ncoo6Ghec8782Ma9Q/giphy.gif)
+## Main Screen after pressing Purchase 
+### the quantities of the items the user purchased is being decreased here 
+![Alt Text](https://media.giphy.com/media/0Ncoo6Ghec8782Ma9Q/giphy.gif)
+
+
 
